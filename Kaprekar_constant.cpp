@@ -1,3 +1,9 @@
+/*
+Kaprekar constant is named after Indian mathematician D.R. Kaprekar. 
+Take a number, subtract the smallest number you can make using its digits from the largest number you can make using its digits.
+Repeat the above routine till you get fixed on a single number. That, my friend, is Kaprekar number.
+*/
+
 #include<iostream>
 #include<math.h>
 using namespace std;
@@ -71,3 +77,11 @@ int main()
 	goto x;
 
 }
+
+
+/*
+There's just one drawback. Apart from 0 (trivial solution), there are only two Kaprekar numbers (3 digit and 4 digit) in base 10. 
+For others, it's a loop.
+(Written above is a polite manner of saying that this code, however interesting it may seem, would never make me a millionare)
+You see, extendability issues.
+*/
