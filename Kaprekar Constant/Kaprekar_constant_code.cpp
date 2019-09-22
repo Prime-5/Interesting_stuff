@@ -3,7 +3,7 @@ Kaprekar constant is named after Indian mathematician D.R. Kaprekar.
 Take a number, subtract the smallest number you can make using its digits from the largest number you can make using its digits.
 Repeat the above routine till you get fixed on a single number. That, my friend, is Kaprekar number.
 */
-//Testing
+
 #include<iostream>
 #include<math.h>
 using namespace std;
